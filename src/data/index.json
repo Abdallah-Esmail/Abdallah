@@ -1,0 +1,12 @@
+{
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "github_url": "https://github.com/Abdallah-Esmail/AE-Shop",
+      "url": "https://ae-shop.vercel.app",
+      "title": "Full-Stack E-Commerce",
+      "description": "Complete MERN platform featuring Stripe payment integration, user authentication, and product management."
+    }
+  ]
+}
