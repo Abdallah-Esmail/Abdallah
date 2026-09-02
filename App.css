@@ -182,6 +182,11 @@ h3 {
 .navbar--active-content {
   color: var(--primary);
 }
+@media (max-width: 787px) {
+  .nav-contact {
+    display: none;
+  }
+}
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -193,6 +198,12 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   background-color: var(--bg-shade);
+}
+
+@media (max-width: 787px) {
+  .hero--section {
+    padding: 100px 30px;
+  }
 }
 .hero--section--content-box {
   display: flex;
@@ -238,6 +249,11 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 787px) {
+  .hero--section .links {
+    flex-direction: column;
+  }
+}
 .hero--section .links .hero-link {
   margin-top: 25px;
 }
@@ -252,6 +268,12 @@ h3 {
   justify-content: center;
   align-items: flex-start;
   gap: 106.667px;
+}
+
+@media (max-width: 787px) {
+  .skills--section {
+    padding: 100px 30px;
+  }
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -340,6 +362,11 @@ h3 {
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
 }
+@media (max-width: 787px) {
+  .about--section {
+    padding: 100px 30px;
+  }
+}
 .about--section--img > img {
   width: 100%;
   max-width: 500px;
@@ -355,6 +382,11 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
+}
+@media (max-width: 787px) {
+  .portfolio--section {
+    padding: 100px 45px;
+  }
 }
 .portfolio--container-box {
   display: flex;
@@ -442,6 +474,11 @@ h3 {
   text-align: center;
   gap: 64px;
 }
+@media (max-width: 787px) {
+  .contact--section {
+    padding: 100px 30px;
+  }
+}
 .contact--form--container {
   display: grid;
   grid-template-columns: auto;
@@ -518,6 +555,11 @@ input[type="checkbox"] {
   flex-direction: column;
   align-items: center;
   background: var(--bg-shade);
+}
+@media (max-width: 787px) {
+  .footer--container {
+    padding: 50px 30px;
+  }
 }
 .footer--container img {
   width: 150px;
@@ -673,6 +715,15 @@ input[type="checkbox"] {
   }
 }
 
+@media (max-width: 767px) {
+  .hero--section--content {
+    gap: 10px;
+  }
+  .hero--section-description {
+    font-size: 20px;
+  }
+}
+
 /* Hamburger menu  */
 
 .nav__hamburger {
@@ -745,5 +796,4 @@ input[type="checkbox"] {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 }
-
 /* Responsive Screens Ends*/

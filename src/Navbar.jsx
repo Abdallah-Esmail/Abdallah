@@ -99,7 +99,7 @@ function Navbar() {
         offset={-70}
         duration={500}
         to="Contact"
-        className="btn btn-outline-primary"
+        className="btn btn-outline-primary nav-contact"
       >
         Contact Me
       </Link>
