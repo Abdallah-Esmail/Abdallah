@@ -30,7 +30,7 @@ export default function HeroSection() {
           </Link>
           <a
             href="/resume.pdf"
-            download="Abdallah_Ismail_CV.pdf" // الاسم الذي سيظهر للمستخدم عند التحميل
+            download="Abdallah_Ismail_CV.pdf"
             className="btn btn-outline-primary hero-link"
           >
             Download CV

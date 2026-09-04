@@ -373,6 +373,9 @@ h3 {
   height: 100%;
   border-radius: 20px;
 }
+.about--section .section-heading {
+  margin: 0 auto;
+}
 /* About Us Ends */
 
 /* My Portfolio Starts */
@@ -425,6 +428,7 @@ h3 {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   flex-basis: 350px;
+  max-width: 350px;
   transition: 0.3s ease-in-out;
 }
 .portfolio--section--card:hover {
